@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: serif;
+    background-color: cadetblue;
+}
+
+#buttons-list {
+    background-color: chocolate;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#tv-shows-form {
+    background-color: darkblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* margin-top: 0; */
+    font-size: 20px;
+}
+
+#add-tvShow {
+    font-size: 20px;
+}

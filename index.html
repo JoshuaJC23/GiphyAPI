@@ -5,19 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/reset.css">
     <title>Giphy</title>
 </head>
 <body>
 
     <div class="container-fluid">
 
+        <div class="header">
+            <h1>
+                TV GIPHS
+            </h1>
+        </div>
+
         <div id="buttons-list"></div>
+
+        <br>
 
         <form id = "tv-shows-form">
             <label for="tv-shows-input">Type in a TV Show</label>
-            <input type="text" id="tv-shows-input">
+            <input type="text" id="tv-shows-input" name="tv-shows-input">
 
-            <input id = "add-tvShow" type="submit" value="Type in a TV Show">
+            <input id = "add-tvShow" type="submit" value="Add Tv Show">
         </form>
 
         <div id="tvShow-expo"></div>
