@@ -74,9 +74,7 @@ body {
     margin-right: 20px;
 }
 
-#hr {
-    border-color: white;
-}
+
 
 #tvShow-expo {
     margin-top: 15px;
@@ -87,4 +85,5 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     color: honeydew;
+    border: white 5px ridge;
 }
